@@ -1,3 +1,3 @@
 # FASTCODING test
 ## Technologies
-- HTML
+- Vanila html, css, js

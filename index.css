@@ -1,3 +1,134 @@
+*{
+    box-sizing: border-box;
+}
 .d-flex{
     display: flex;
+}
+.justify-content-around{
+    justify-content: space-around
+}
+.justify-content-center{
+    justify-content: center
+}
+.justify-content-between{
+    justify-content: space-between
+}
+.justify-content-end{
+    justify-content: end
+}
+.align-items-center{
+    align-items: center;
+}
+
+.simple-white-link{
+    text-decoration: none;
+    color: rgb(255,255,255);
+}
+.simple-button-link{
+    text-decoration: none;
+    color: #e7a331;
+    border: 1px solid #ffffff;
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+.simple-button-link-2{
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 13px 38px;
+    border-radius: 5px;
+}
+
+body{
+    margin: 0;
+}
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-color: rgb(13, 13, 13);
+    padding-top: 5px;
+}
+div.main-banner{
+    background-image: url('resources/images/main_banner.png');
+    height: 799px;
+}
+div.main-banner-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 196px;
+}
+div.main-banner-content>span{
+    color: #ffffff;
+}
+div.main-banner-content span:first-child{
+    margin-bottom: 17px;
+}
+div.main-banner-content a{
+    margin-top: 41px;
+}
+img.logo{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 127px;
+}
+div.header{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+}
+div.social-bar{
+    background-color: rgb(255,255,255);
+    height: 34px;
+}
+div.social-bar-center img{
+    margin-right: 11px;
+}
+div.social-bar-center>div:first-child{
+    margin-right: 45px;
+}
+div.social-bar-right>img{
+    margin-right: 10px;
+}
+div.social-bar-right>img:last-child{
+    margin-right: 0;
+}
+div.nav-bar{
+    position: relative;
+    height: 92px;
+}
+div.nav-bar a{
+    margin-right: 45px;
+}
+div.nav-bar a:last-child{
+    margin-left: 32px;
+    margin-right: 0;
+}
+div.nav-bar-sub-background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 92px;
+    width: 100%;
+    opacity: 0.64;
+    background-color: rgb(0,0,0);
+}
+@media only screen and (min-width: 1400px){
+    .container{
+        max-width: 1500px;
+    }
+    div.social-bar{
+        padding-left: 618px;
+        padding-right: 175px;
+    }
+    div.nav-bar{
+        padding-right: 167px;
+    }
 }
