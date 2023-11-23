@@ -38,6 +38,13 @@
     padding: 13px 38px;
     border-radius: 5px;
 }
+.simple-button-link-3{
+    text-decoration: none;
+    background-color: #e7a331;
+    color: #ffffff;
+    padding: 19px 44px;
+    border-radius: 5px;
+}
 
 body{
     margin: 0;
@@ -119,6 +126,69 @@ div.nav-bar-sub-background{
     width: 100%;
     opacity: 0.64;
     background-color: rgb(0,0,0);
+}
+div.aa-sr-container{
+    padding-top: 422px;
+    position: relative;
+}
+div.about-us{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 616px;
+    width: 100%;
+    background-image: url('resources/images/ab_background.png');
+}
+div.about-us>img{
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    right: 0;
+}
+div.about-us-content-ctn{
+    position: absolute;
+    z-index: 2;
+    top: 107px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+div.about-us-content{
+    display: flex;
+    width: 1170px;
+}
+div.about-us-content>img{
+    margin-right: 73px;
+}
+div.about-us-content-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+div.about-us-content-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+span.about-us-content-text-p1{
+    padding-left: 8px;
+    margin-bottom: 16px;
+}
+span.about-us-content-text-p2{
+    margin-bottom: 28px;
+}
+span.about-us-content-text-p3{
+    padding-left: 3px;
+    margin-bottom: 22px;
+}
+span.about-us-content-text-p4{
+    padding-left: 3px;
+    margin-bottom: 38px;
+}
+div.special-recipe{
+    height: 980px;
+    background-image: url('resources/images/sr_l1_background.png');
 }
 @media only screen and (min-width: 1400px){
     .container{
